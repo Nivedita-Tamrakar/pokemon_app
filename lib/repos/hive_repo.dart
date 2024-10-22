@@ -3,7 +3,7 @@ import 'package:hive/hive.dart';
 import 'package:pokemon_app/data/pokemon.dart';
 
 class HiveRepo {
-  final pokemonBoxName = 'pokemonBox';
+  final pokemonBoxName = 'pokemonBox1';
 
   void registerAdapter(){
     Hive.registerAdapter(PokemonAdapter());
